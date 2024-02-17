@@ -6,7 +6,7 @@ import QRCodePNG from '/public/qrcode.png'
 import Icon from '../Icon'
 const QRCode = () => {
   return (
-    <div className=" bg-white rounded-xl flex flex-col p-4 px-6 pb-6 max-h-[440px] min-w-[200px]">
+    <div data-testid='qrcode' className=" bg-white rounded-xl flex flex-col p-4 px-6 pb-6 max-h-[440px] min-w-[200px]">
       <div className='mb-5 flex justify-between'>
         <h1 className="text-2xl">QR Code</h1>
         <div className='flex gap-5'>

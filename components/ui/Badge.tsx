@@ -20,7 +20,7 @@ const Badge = ({
   count
 }: BadgeProps) => {
   return (
-    <div className={`${className} inline-flex items-center rounded-lg bg-neutral p-2 text-xs font-medium text-secondary`}>
+    <div className={`${className} inline-flex items-center rounded-lg bg-neutral md:p-2 text-xs font-medium text-secondary`}>
     {iconName && <Icon name={iconName} width={iconWidth}  />}
     <div className='ml-1'>
       <p className={`text-black text-sm font-bold ${primaryTextStyles}`}>

@@ -6,7 +6,7 @@ import Badge from '@/components/ui/Badge'
 import Button from '@/components/ui/Button'
 const Profile : FC<{}> = () => {
   return (
-    <div className="bg-white rounded-xl flex-col max-h-[391px] mb-5 min-w-[200px] p-6">
+    <div data-testid='profile' className="bg-white rounded-xl flex-col max-h-[391px] mb-5 min-w-[200px] p-6">
       <Image src={defaultProfile} className='object-cover h-[100px] rounded-lg' alt='profile-pic' width={100}/>
       <h4 className='text-2xl font-bold my-2'>Hala Ahmed</h4>
       <p className='text-sm whitespace-normal my-2'>
